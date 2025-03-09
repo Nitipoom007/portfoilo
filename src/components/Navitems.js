@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 class Navitems extends Component {
     render() {
         return(
-            <li id={this.props.item}>
+            <a id={this.props.item}>
                 <Link to={this.props.tolink}>{this.props.item}</Link>
-            </li>
+            </a>
         )
     }
 }
