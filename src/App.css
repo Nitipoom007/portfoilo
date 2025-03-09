@@ -13,7 +13,7 @@
 }
 
 .App {
-  display:contents;
+  display: flex;
   width: 100vw;
   min-height: 100vh;
 }
@@ -30,12 +30,9 @@ nav ul {
   list-style: none;
 }
 
-nav ul a{
-  margin: 40px;
+nav ul li a{
   color: #fff;
-  position: relative;
-    text-decoration: none;
-    bottom: 15px;
+  text-decoration: none;
 }
 
 .condiv {
@@ -52,9 +49,10 @@ nav ul a{
 }
 
 .profilepic {
-  border-radius: 50%;
-  width: 400px;
+  border-radius: 30%;
+  width: 300px;
   margin: 30px;
+  border: #20761a 5px solid;
 }
 
 .social {
@@ -72,4 +70,38 @@ nav ul a{
 
 .social i:hover {
   color: #333;
+}
+
+.typingeffect {
+  font-size: var(--trping-font);
+  color: #333;
+}
+
+.about {
+  text-align: center;
+}
+
+.subtopic{
+  margin: 10px 10px 30px 10px !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 10px;
+}
+
+p {
+  font-size: var(--trping-p);
+}
+
+.widecard {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  transition: .3s;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+.widecard:hover {
+  color: #fff;
+  background: #333;
+  box-shadow: 3px 3px 10px #333;
 }
