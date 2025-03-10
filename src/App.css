@@ -54,7 +54,7 @@ nav ul a{
 .profilepic {
   border-radius: 30%;
   width: 300px;
-  margin: 30px;
+  margin: 15px;
   border: #333 5px solid;
 }
 
@@ -78,7 +78,7 @@ nav ul a{
 .typingeffect {
   font-size: var(--trping-font);
   color: #333;
-  text-align: center;
+  text-align:center;
   font-weight: bolder;
 }
 
