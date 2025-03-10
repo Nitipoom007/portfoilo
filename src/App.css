@@ -13,7 +13,7 @@
 }
 
 .App {
-  display: flex;
+  display: contents;
   width: 100vw;
   min-height: 100vh;
 }
@@ -30,9 +30,12 @@ nav ul {
   list-style: none;
 }
 
-nav ul li a{
+nav ul a{
   color: #fff;
   text-decoration: none;
+  padding-inline: 15px;
+  position: relative;
+  bottom: 15px;
 }
 
 .condiv {
@@ -52,7 +55,7 @@ nav ul li a{
   border-radius: 30%;
   width: 300px;
   margin: 30px;
-  border: #20761a 5px solid;
+  border: #333 5px solid;
 }
 
 .social {
@@ -75,6 +78,8 @@ nav ul li a{
 .typingeffect {
   font-size: var(--trping-font);
   color: #333;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .about {
@@ -105,3 +110,23 @@ p {
   background: #333;
   box-shadow: 3px 3px 10px #333;
 }
+
+.skills ul {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  border-radius: 60px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.skills ul li {
+  margin: 30px;
+  list-style: none;
+}
+
+.active {
+  font-weight: bolder;}
