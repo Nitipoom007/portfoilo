@@ -1,0 +1,53 @@
+.condiv.skills {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtopic {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.popup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popup-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.popup-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skill-logo {
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
+    margin-right: 10px;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    object-fit: cover; /* Ensure the image covers the area */
+}

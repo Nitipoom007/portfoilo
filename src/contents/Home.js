@@ -1,16 +1,16 @@
-import React, {Component} from "react";
-
+import React, { Component } from "react";
 import Social from "../components/Social";
-//import ReactTypingEffect from "react-typing-effect";
+import './Home.css'; // เพิ่มการ import ไฟล์ CSS
 
 class Home extends Component {
     render() {
-        return(
+        return (
             <div className="condiv home">
-                <img src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/470221891_1849087948951909_1695415707582409675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Cc3B7Jw2L9kQ7kNvgEr62jS&_nc_oc=Adj19trxQgmnZFeAXCmOc-wFhicY6MQ1TXu7afzpWqPv-kNQqG8IRlVQ0tVuF-VFJyE&_nc_zt=23&_nc_ht=scontent-bkk1-2.xx&_nc_gid=AK8pcPmilWYwDIgtD5Xvd7s&oh=00_AYHQOzwdftiOFzhXNQOgIlToG8xJdu7Ees0sncHy4-TCWQ&oe=67D31764"
-                alt="profile" className="profilepic"/>
-                <p className="typingeffect">Nitipoom Gongfu</p>
-                <Social/>
+                <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/475743607_1881205749073462_1834883215585019369_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=B7sHGfXr2VYQ7kNvgF7182w&_nc_oc=AdjvCxzjL3Ib6Cbms3ZM67KgyK2z9r0Pd1q78PkjKDspkCl5H0qc0wS9j7tWWCrrIkiVmPvHaf5jkMaJMTBcW6ki&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AqSMs3pxy_ULrDaLKSP2WBW&oh=00_AYHdvdYAwq8LsOa2QauVo8e528PJ6bhqvK-BaYt4SFji0Q&oe=67D4C3F2"
+                    alt="profile" className="profilepic" />
+                <p className="typingeffect">Hi, I'm Nitipoom</p>
+                
+                <Social />
             </div>
         )
     }

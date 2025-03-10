@@ -1,18 +1,21 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 
 class Widecard extends Component {
     render() {
-        return(
+        return (
             <div className="widecard">
-                <div className="wide-con">
+                <div className="widecard-img">
+                    <img src={this.props.logo} alt={`${this.props.where} logo`} />
+                </div>
+                <div className="widecard-content">
                     <h3>{this.props.title}</h3>
-                    <h4 className="secondtext">{this.props.Where}</h4>
-                    <h4 className="secondtext">{this.props.form} - {this.props.to}</h4>
-                    <h4 className="secondtext">GPAX = {this.props.GPAX}</h4>
+                    <h4>{this.props.where}</h4>
+                    <p>{this.props.form} - {this.props.to}</p>
+                    <p>GPAX: {this.props.GPAX}</p>
                 </div>
             </div>
         )
     }
 }
 
-export default Widecard;    
+export default Widecard;

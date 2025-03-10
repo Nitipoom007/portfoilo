@@ -129,4 +129,94 @@ p {
 }
 
 .active {
-  font-weight: bolder;}
+  font-weight: bolder;
+}
+
+.certificate-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.subtopic {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.certificate-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.certificate-item:hover {
+  transform: scale(1.05);
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.certificate-item h3 {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.widecard {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.widecard-img {
+  flex: 0 0 100px;
+  margin-right: 20px;
+}
+
+.widecard-img img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.widecard-content {
+  flex: 1;
+}
+
+.widecard-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.widecard-content h4 {
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.widecard-content p {
+  margin: 5px 0;
+  color: #777;
+}
+
