@@ -4,7 +4,7 @@ import './Certificate.css'; // Import CSS file for styling
 class Certificate extends Component {
     render() {
         return (
-            <div className="certificate-container">
+            <div className="condiv">
                 <h1 className="subtopic">My Certificates</h1>
                 <div className="certificate-grid">
                     <div className="certificate-item">

@@ -40,7 +40,7 @@ class Skills extends Component {
 
     render() {
         return (
-            <div className="condiv skills">
+            <div className="condiv">
                 <h1 className="subtopic">My Skills</h1>
                 {Object.keys(this.state).map((category, index) => (
                     <div key={index} className="skills-category">
