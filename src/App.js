@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-
 import Home from './contents/Home';
 import Education from './contents/Education';
 import Skills from './contents/Skills';

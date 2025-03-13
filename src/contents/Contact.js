@@ -22,7 +22,7 @@ class Contact extends Component {
                     </div>
                     <div className="contact-item">
                         <FaPhone className="contact-icon" />
-                        <h3>Tel: <a type="number">081-xxxxxxx</a></h3>
+                        <h3>Tel: <a href="#">081-xxxxxxx</a></h3>
                     </div>
                 </div>
             </div>
